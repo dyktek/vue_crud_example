@@ -4,6 +4,7 @@ import Categories from '@/components/Categories'
 import AddCategory from '@/components/AddCategory'
 import EditCategory from '@/components/EditCategory'
 import Articles from '@/components/Articles'
+import Login from '@/components/Login'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
             path: '/articles',
             name: 'articles',
             component: Articles
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: Login
         }
     ]
 })
